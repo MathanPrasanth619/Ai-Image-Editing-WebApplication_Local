@@ -1,0 +1,27 @@
+{
+  "name": "ai-project",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "nuxt": "^4.3.1",
+    "onnxruntime-web": "1.21.0-dev.20250206-d981b153d3",
+    "tailwindcss": "^4.1.18",
+    "upscaler": "1.0.0-beta.19",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.439",
+    "@iconify/tailwind4": "^1.2.1",
+    "daisyui": "^5.5.18"
+  }
+}
